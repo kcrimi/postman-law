@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "52c43a03-3abb-4b90-a9db-6558dba8ecb4",
+		"name": "Sample calls",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "recent bills",
+			"_postman_id": "a980e458-17d9-4a15-b228-e28bae65b360",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "bills by congress",
+			"_postman_id": "b4de01e4-9e2e-4116-8e74-754313682c53",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "bill summaries",
+			"_postman_id": "ef2c022a-4051-4a0e-8162-928a3ec17440",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.congress.gov/v3/bill/118/hr/1339/summaries?api_key=7ZHIwi2fSkUXl1tNqKwvhzLTGbM1IxQlo288tBuL",
+					"protocol": "https",
+					"host": [
+						"api",
+						"congress",
+						"gov"
+					],
+					"path": [
+						"v3",
+						"bill",
+						"118",
+						"hr",
+						"1339",
+						"summaries"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "7ZHIwi2fSkUXl1tNqKwvhzLTGbM1IxQlo288tBuL"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "bill",
+			"_postman_id": "eb4b9060-de21-4788-875b-bcfee5150ccd",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "bill text xml",
+			"_postman_id": "81c54503-704b-4cfc-a995-e36643663698",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "bill text htm",
+			"_postman_id": "c8fdf51a-eccf-4228-befb-11fa80bcffa2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://www.congress.gov/118/bills/hr1339/BILLS-118hr1339rh.xml\n"
+			},
+			"response": []
+		}
+	]
+}
