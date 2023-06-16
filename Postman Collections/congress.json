@@ -14,7 +14,26 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "https://api.congress.gov/v3/bill/"
+				"url": {
+					"raw": "https://api.congress.gov/v3/bill/?api_key=7ZHIwi2fSkUXl1tNqKwvhzLTGbM1IxQlo288tBuL",
+					"protocol": "https",
+					"host": [
+						"api",
+						"congress",
+						"gov"
+					],
+					"path": [
+						"v3",
+						"bill",
+						""
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "7ZHIwi2fSkUXl1tNqKwvhzLTGbM1IxQlo288tBuL"
+						}
+					]
+				}
 			},
 			"response": []
 		},
@@ -26,8 +45,7 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": [],
-				"url": "https://api.congress.gov/v3/bill/118/hr/"
+				"header": []
 			},
 			"response": []
 		},
