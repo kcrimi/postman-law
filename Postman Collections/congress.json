@@ -14,26 +14,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": {
-					"raw": "https://api.congress.gov/v3/bill/?api_key=7ZHIwi2fSkUXl1tNqKwvhzLTGbM1IxQlo288tBuL",
-					"protocol": "https",
-					"host": [
-						"api",
-						"congress",
-						"gov"
-					],
-					"path": [
-						"v3",
-						"bill",
-						""
-					],
-					"query": [
-						{
-							"key": "api_key",
-							"value": "7ZHIwi2fSkUXl1tNqKwvhzLTGbM1IxQlo288tBuL"
-						}
-					]
-				}
+				"url": "https://api.congress.gov/v3/bill/"
 			},
 			"response": []
 		},
@@ -45,7 +26,8 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": "https://api.congress.gov/v3/bill/118/hr/"
 			},
 			"response": []
 		},
@@ -58,29 +40,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": {
-					"raw": "https://api.congress.gov/v3/bill/118/hr/1339/summaries?api_key=7ZHIwi2fSkUXl1tNqKwvhzLTGbM1IxQlo288tBuL",
-					"protocol": "https",
-					"host": [
-						"api",
-						"congress",
-						"gov"
-					],
-					"path": [
-						"v3",
-						"bill",
-						"118",
-						"hr",
-						"1339",
-						"summaries"
-					],
-					"query": [
-						{
-							"key": "api_key",
-							"value": "7ZHIwi2fSkUXl1tNqKwvhzLTGbM1IxQlo288tBuL"
-						}
-					]
-				}
+				"url": "https://api.congress.gov/v3/bill/118/hr/1339/summaries"
 			},
 			"response": []
 		},
