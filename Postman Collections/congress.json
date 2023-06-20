@@ -14,26 +14,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": {
-					"raw": "https://api.congress.gov/v3/bill/?api_key=7ZHIwi2fSkUXl1tNqKwvhzLTGbM1IxQlo288tBuL",
-					"protocol": "https",
-					"host": [
-						"api",
-						"congress",
-						"gov"
-					],
-					"path": [
-						"v3",
-						"bill",
-						""
-					],
-					"query": [
-						{
-							"key": "api_key",
-							"value": "7ZHIwi2fSkUXl1tNqKwvhzLTGbM1IxQlo288tBuL"
-						}
-					]
-				}
+				"url": "https://api.congress.gov/v3/bill/"
 			},
 			"response": []
 		},
@@ -98,6 +79,41 @@
 				"method": "GET",
 				"header": [],
 				"url": "https://www.congress.gov/118/bills/hr1339/BILLS-118hr1339rh.xml\n"
+			},
+			"response": []
+		},
+		{
+			"name": "Bill subjects",
+			"id": "7afa9253-8177-4a14-a070-80a70fe4add2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.congress.gov/v3/bill/118/hr/1339/subjects?format=json",
+					"protocol": "https",
+					"host": [
+						"api",
+						"congress",
+						"gov"
+					],
+					"path": [
+						"v3",
+						"bill",
+						"118",
+						"hr",
+						"1339",
+						"subjects"
+					],
+					"query": [
+						{
+							"key": "format",
+							"value": "json"
+						}
+					]
+				}
 			},
 			"response": []
 		}
