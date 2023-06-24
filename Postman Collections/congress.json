@@ -116,6 +116,41 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "bill text",
+			"id": "73592e0e-01ac-4b60-a919-738c0ee43720",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.congress.gov/v3/bill/118/hr/1339/text?format=json",
+					"protocol": "https",
+					"host": [
+						"api",
+						"congress",
+						"gov"
+					],
+					"path": [
+						"v3",
+						"bill",
+						"118",
+						"hr",
+						"1339",
+						"text"
+					],
+					"query": [
+						{
+							"key": "format",
+							"value": "json"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	],
 	"auth": {
