@@ -65,7 +65,8 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": "https://www.congress.gov/118/bills/hr377/BILLS-118hr377ih.xml"
 			},
 			"response": []
 		},
