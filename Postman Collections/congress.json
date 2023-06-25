@@ -78,7 +78,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "https://www.congress.gov/118/bills/hr1339/BILLS-118hr1339rh.xml\n"
+				"url": "https://www.congress.gov/118/bills/hr1339/BILLS-118hr1339rh.htm\n"
 			},
 			"response": []
 		},
