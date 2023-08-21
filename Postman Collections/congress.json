@@ -76,7 +76,7 @@
 					"originalRequest": {
 						"method": "GET",
 						"header": [],
-						"url": "https://api.congress.gov/v3/bill/118/hr/1339/text"
+						"url": "https://api.congress.gov/v3/bill/118/s/2698/text"
 					},
 					"_postman_previewlanguage": null,
 					"header": null,
