@@ -55,7 +55,22 @@
 				"header": [],
 				"url": "https://api.congress.gov/v3/bill/118/hr/1339/text"
 			},
-			"response": []
+			"response": [
+				{
+					"id": "2b82f807-7e6a-4038-8556-4d25e8752241",
+					"name": "bill",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": "https://api.congress.gov/v3/bill/118/hr/1339/text"
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"responseTime": null,
+					"body": null
+				}
+			]
 		},
 		{
 			"name": "bill text xml",
