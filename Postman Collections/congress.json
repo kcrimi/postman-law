@@ -69,6 +69,20 @@
 					"cookie": [],
 					"responseTime": null,
 					"body": null
+				},
+				{
+					"id": "91734d47-1b08-4c0c-a360-54973352d918",
+					"name": "with versions",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": "https://api.congress.gov/v3/bill/118/hr/1339/text"
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"responseTime": null,
+					"body": null
 				}
 			]
 		},
