@@ -250,6 +250,18 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Bill Committees",
+			"id": "ed5524d1-4229-438a-9329-7eeaaa40c8b2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	],
 	"auth": {
