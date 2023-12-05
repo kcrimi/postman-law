@@ -181,6 +181,75 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Bill Actions",
+			"id": "a4145599-7ed8-46fd-a167-27d51b899ef8",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.congress.gov/v3/bill/118/hr/1339/actions?format=json",
+					"protocol": "https",
+					"host": [
+						"api",
+						"congress",
+						"gov"
+					],
+					"path": [
+						"v3",
+						"bill",
+						"118",
+						"hr",
+						"1339",
+						"actions"
+					],
+					"query": [
+						{
+							"key": "format",
+							"value": "json"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Committee Report",
+			"id": "52ef47a1-af56-443a-abcd-0d89a8fddf5f",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.congress.gov/v3/committee-report/118/HRPT/42?format=json",
+					"protocol": "https",
+					"host": [
+						"api",
+						"congress",
+						"gov"
+					],
+					"path": [
+						"v3",
+						"committee-report",
+						"118",
+						"HRPT",
+						"42"
+					],
+					"query": [
+						{
+							"key": "format",
+							"value": "json"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	],
 	"auth": {
